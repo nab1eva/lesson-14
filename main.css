@@ -1,0 +1,131 @@
+ @import url(loading.css);
+*{
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1100px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+body{
+	background-color: #021823;
+	height: 600px;
+	display: flex;
+    align-items: center;
+}
+
+.animation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+	font-size: 70px;
+}
+
+img{
+	width: 300px;
+    height: 300px;
+	margin-top: -500px;
+    animation: logo 3s forwards;
+	animation-delay: 3s;
+}
+
+
+p {
+    margin-top: -200px;
+    animation: najottalim 0.5s 0s linear forwards;
+	animation-delay: 3s;
+}
+
+p:nth-child(1) {
+    animation-delay: 5.1s;
+}
+p:nth-child(2) {
+    animation-delay: 5.2s;
+}
+p:nth-child(3) {
+    animation-delay: 5.3s;
+}
+p:nth-child(4) {
+    animation-delay: 5.4s;
+}
+p:nth-child(5) {
+    animation-delay: 5.5s;
+}
+p:nth-child(7) {
+    animation-delay: 5.5s;
+}
+p:nth-child(8) {
+    animation-delay: 5.4s;
+}
+p:nth-child(9) {
+    animation-delay: 5.3s;
+}
+p:nth-child(10) {
+    animation-delay: 5.2s;
+}
+p:nth-child(11) {
+    animation-delay: 5.1s;
+}
+
+ @keyframes logo {
+     0% {
+          margin-top: -200px;
+     }
+     50% {
+         margin-top: 100px;
+         width: 400px;
+         height: 400px;
+	 }
+    100% {
+         margin-top: 0px;
+         width: 300px;
+         height: 300px;
+     }
+ }
+
+ @keyframes najottalim {
+        0% {
+          margin-top: -200px;
+        }
+        100% {
+          margin-top: 0px;
+        }
+}
+      /* p:nth-child(11) {
+        animation-delay: 2.1s;
+      }
+      p:nth-child(10) {
+        animation-delay: 2.2s;
+      }
+      p:nth-child(9) {
+        animation-delay: 2.3s;
+      }
+      p:nth-child(8) {
+        animation-delay: 2.4s;
+      }
+      p:nth-child(7) {
+        animation-delay: 2.5s;
+      }
+      p:nth-child(5) {
+        animation-delay: 2.5s;
+      }
+      p:nth-child(4) {
+        animation-delay: 2.4s;
+      }
+      p:nth-child(3) {
+        animation-delay: 2.3s;
+      }
+      p:nth-child(2) {
+        animation-delay: 2.2s;
+      }
+      p:nth-child(1) {
+        animation-delay: 2.1s;
+      } */
+
